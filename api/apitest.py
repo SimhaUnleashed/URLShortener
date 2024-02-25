@@ -1,7 +1,7 @@
 import requests
 
-base = "http://127.0.0.1:5000/"
+base = "https://urlshortener-162a.onrender.com/"
 
 
-response = requests.get(base+ "long/https://www.misindila.net")
+response = requests.get(base+ "long/http://www.google.com")
 print(response.json())

@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-export const baseURL = "http://localhost:5000"
+export const baseURL = "https://urlshortener-162a.onrender.com"
 
 const app = axios.create({
     baseURL,
